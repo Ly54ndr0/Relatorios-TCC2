@@ -1,0 +1,114 @@
+\documentclass[12pt,a4paper,final]{article}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+%% IDIOMA
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+
+%% TRANSFORMAÇÕES ESTILO CSS
+\usepackage{graphicx}
+
+%% ESTÉTICA
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{multirow}
+\usepackage[hyphens]{url}
+\usepackage{subfig}
+
+%% FONTE
+\usepackage[T1]{fontenc}
+%\usepackage[sc]{mathpazo} % Palatino with smallcaps
+\usepackage{mathptmx}
+\usepackage{eulervm} % Euler math
+
+%% TIPOGRAFIA
+\usepackage{parskip}
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+
+%% CODIGO
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\title{Relatório 4 de TCC2/IC}
+\author{Ly Sandro Amorim de Campos Salles\\Departamento de Física\\Universidade Federal do Paraná}
+\date{\today}
+
+\begin{document}
+	\maketitle
+
+  As seguintes atividades foram realizadas desde o último encontro:
+
+  A releitura da tese ``Dinâmica de padrões em autômatos celulares com inércia'' do pesquisador Klaus Kramer. Dessa leitura foram feitas as seguintes observações:
+  \begin{enumerate}
+    \item O valor de cada célula num autômato celular pode indicar vários coisas além de um ``estado'': densidade de partículas, energia, cor de pigmento;
+    \item O Autômato Celular tem três possíveis estados para cada célula (\texttt{-1}, \texttt{0} e \texttt{+1}); as células estão organizadas em uma malha quadrada; as oito celulas adjacentes formam a vizinhança de cada célula; a matriz de células é finita; células nas bordas interagem somente com as células nas bordas ou no interior da matriz; cada célula tem uma resistência à mudança cujo valor fica em $[0, 8]$, sendo $0$ equivalente a nenhuma resistência e $8$ equivalente a resistência total; existe uma chance de cada célula que tem uma vizinha no estado $0$ ser convertida para o estado $0$; ao ser atualizada, se a a célula tiver uma inércia maior que o valor absoluto da soma dos estados das células na vizinhança dela, a célula continua no mesmo estado; caso o valor da inércia da célula seja menor que o valor absoluto da soma da vizinhança, a célula muda para o estado \texttt{-1} ou \texttt{+1} dependendo se a soma é menor ou maior que $0$, respectivamente; se o valor da soma for zero, a célula continua no mesmo estado.
+    \item O valor da inércia é igual para todas as células e não muda durante a simulação.
+    \item Para a análise das simulações, os seguintes parâmetros foram utilizados: a \textbf{densidade de cada estado, o tamanho médio dos aglomerados, o número de aglomerados}, e o tempo de convergência para uma disposição estacionária.
+    \item Aglomerados são formados por duas ou mais células adjacentes no mesmo estado.
+    \item Para a contagem dos aglomerados é utilizado o \textbf{algoritmo de Hoshen-Kopelman}, que consiste em encontrar aglomerados, etiquetar os aglomerados encontrados, procurar aglomerados adjacentes, realizar a união desses aglomerados, e iterar os dois últimos passos até que não existam mais aglomerados adjacentes.
+    \item A contagem de aglomerados foi implementada com o objetivo de estudar \textit{qualitativamente} a evolução da distribuição espacial dos estados do sistema.
+    \item Uma configuração é considerada estacionária se a média dos estados das últimas dez gerações estiver dentro de $0.001\%$ da média dos estados dessa configuração.
+    \item A \textbf{matriz inicial} é criada parcialmente de forma aleatória, sendo que a densidade do estado \texttt{0} é forçada para um valor pré-definido e o estado \texttt{+1} é forçado a ser o dominante.
+    \item O \textbf{espaço de amostra} para as simulações foi escolhido pelo autor: os conjuntos de dados escolhidos tinham uma matriz inicial com tamanho médio de aglomerados entre $2.4$ e $2.8$. Isso foi feito porque ``os valores resultaram numa melhor distribuição dos dados iniciais sobre o espaço de parâmetros''.
+    \item Para todos os valores de inércia, a densidade de células positivas aumentou até o estado estacionário. A relação entre densidade inicial de células positivas e densidade final de células positivas é localmente linear no intervalo $[0.33, 0.36]$.
+    \item \textbf{Densidades maiores de células no estado positivo resultaram na diminuição de aglomerados positivos.}
+    \item É verificada a evolução de \textbf{uma mesma matriz inicial para vários valores de inércia} em $[0,8]$.
+    \item É feita uma \textbf{análise do comportamento de todas as possíveis vizinhanças de uma célula}, verificando qual a porcentagem das vizinhanças que convertiam o estado da célula e qual a porcentagem das vizinhanças que não mudavam o estado da célula, para cada valor de inércia em $[0,8]$.
+    \item É feito um estudo sobre quais as \textbf{condições necessárias para a existência de fronteiras} (fronteira é o conjunto das células cujo número de celulas vizinhas no estado \texttt{-1} é igual ao número de células vizinhas no estado \texttt{+1}).
+    \item É estudado, para larguras de matriz iguais a $20$ $40$ $60$ $100$ e $200$ células, qual a \textbf{influência do tamanho da matriz sobre a dinâmica do sistema}. Para isso foi tido como objetivo gerar \textbf{mil matrizes diferentes para cada valor pré-estabelecido} de densidade de células no estado \texttt{+1}. Esses valores pré-estabelecidos são todos próximos e maiores que $1/3$.
+    \item É concluído que a \textbf{densidade final de células no estado \texttt{+1} independe do tamanho do sistema}.
+    \item Para \textbf{maiores larguras de matriz} foi observado que o \textbf{tamanho médio dos aglomerados aumentou}.
+    \item É explicado que o comportamento anômalo para quando a \textbf{inércia é igual à metade do número de células na vizinhança} de cada célula é devido ao fato de as \textbf{mudanças de estado serem menos frequêntes} quando isso acontece e as \textbf{células das bordas nunca atualizarem} nesse caso. Com isso, como as bordas têm muita influência em \textbf{matrizes pequenas}, o comportamento anômalo é criado.
+    \item \textbf{Quando a inércia aumenta, o número de aglomerados também aumenta}, pois as \textbf{células com mesmo estado ficam menos propensas a se unirem}, o que faria o número de aglomerados dinimuir. \texttt{<Explica a subida após o poço de potencial do nosso Autômato Celular: a inclinação do número de aglomerados \textit{versus} estado médio aumenta quando o valor de $q$ aumenta pois fica mais difícil de as células se unirem. Enquanto isso, a grande queda do poço de potencial é devido a uma crescente melhora na tendência de as células se unirem. Essas observações estão de acordo com o termo \textit{afinidade} estabelecido nos estudos anteriores>}
+    \item Para matrizes não-convergentes foram procuradas convergências periódicas.
+    \item Foi observado que o \textbf{comportamento dos parâmetros} analisados é muito \textbf{parecido entre as matrizes que convergem e as que não convergem}.
+    \item Ao serem considerados valores diferentes de inércia para cada estado, foi utilizada uma matriz cuja maioria das células estava no estado \texttt{0}. Foi feita uma analogia na qual os estados \texttt{-1} e \texttt{+1} representavam biomas diferentes e o estado \texttt{0} representava uma região de desmatamento.
+    \item Sobre um gráfico (Figura 5.4-(c) da Tese, Página 60) que apresentava um pico em formato de potencial de Lennard-Jones negativo, o autor explicou que isso aconteceu porque, enquanto o número de aglomerados aumenta, a densidade do estado \texttt{+1} continua diminuindo, chegando um ponto em que o número de aglomerados se estabiliza (pico) e logo em seguida ocorre a queda do número de aglomerados. A Figura 5.10 (página 66 da tese) apresenta mais gráficos com esse comportamento. \texttt{<Ele considerou um eixo x (densidade do estado +1) invertido nesta explicação>}
+    \item Ao ser considerado um modelo no qual a inércia é a menor para o estado predominante e é a maior para o estado menos dominante, foi observado que a densidade dos estados \texttt{-1} e \texttt{+1} ficam praticamente sobrepostas no tempo, alternando em altura regularmente.
+    \item Quando foi considerada uma inércia que variava periodicamente com o tempo, foi observado um padrão nos parâmetros parecido com o obtido nos casos anteriores, com a exceção do fato de os parâmetros sofrerem oscilações sinusoidais.
+    \item Ao estudar a evolução de padrões geométricos, foi observado que todos eles se expandem, mantendo o formato com inércia igual $0$ e tendendo a círculos para inércia igual a $2$.
+    \item No estudo de ecótonos (região de sobrevivência de um estado entre a fronteira competitiva de outros dois estados), foi estudada a evolução de uma única matriz inicial considerando vários parâmetros diferentes. O objetivo foi mostrar que a emergência de ecótonos pode ser explicada através de um autômato celular. Comportamentos semelhantes aos reais foram observados para valores pequenos de inércia (0, 1 e 2). Quando o valor da inércia foi definido como $3$, houve a situação de o ecótono tomar conta de um dos outros dois biomas, quebrando o equilíbrio. Foi concluído que a única possibilidade de haver a expansão do estado \texttt{0} é se houver uma chance não-nula de qualquer célula nos outros estados com pelo menos uma célula vizinha no estado \texttt{0} mudar para o estado \texttt{0}.
+  \end{enumerate}
+  
+  Foi feita a leitura da Seção 1 (``An outline of basic ideas'') do Capítulo 1 (``The Foundations for a New Kind of Science'') do Livro ``A New Kind Of Science'' do autor Stephen Wolfram. Adicionalmente, lendo trechos de outras partes do livro foi possível perceber que estes são os axiomas utilizados pelo Stephen Wolfram:
+  \begin{enumerate}
+    \item É possível criar sistemas complexos a partir de regras simples.
+    \item Princípio da equivalência computacional: para todo comportamento que não é obviamente simples  existe uma computação correspondente equivalente sofisticada.
+    \item É possível descobrir como um sistema vai se comportar executando experimentos e observando o que acontece. O sucesso das ciências aconteceu ao serem encontradas fórmulas matemáticas que previam os resultados desses experimentos, criando um atalho no trabalho que o sistema realiza por si próprio. Esses exemplos demonstram que, apesar de o princípio da equivalência computacional garantir uma resposta mais complexa, soluções mais simples podem existir.
+    \item Apesar da possibilidade de sistemas simplificáveis, podem existir sistemas irredutíveis computacionalmente, ou seja, cuja única forma de prever o resultado do experimento é executando o experimento.
+  \end{enumerate}
+  Este último axioma é o que causou Stephen a desenvolver a teoria de autômatos celulares descrita no livro dele.
+
+  O relatório parcial de Iniciação Científica foi escrito e enviado ao sistema Siga UFPR.
+
+  Foi feita uma conjectura sobre como controlar o formato do poço de pontencial do gráfico de afinidade \textit{versus} $q$: se quisermos aumentar a abertura/largura do poço de potencial podemos aumentar o número de células vizinhas a cada célula pois isso aumentaria a tendência de as células se aglomerarem, mantendo negativa por mais tempo a inclinação do atrator dos gráficos número de aglomerados \textit{versus} $q$; analogamente podemos ``fechar'' o poço de potencial diminuindo o número de células vizinhas a cada célula. Portanto, controlando o número de células vizinhas a cada célula podemos fazer uma ``afinação'' (\textit{fine tuning}) do gráfico gerado pelo autômato celular para encaixar perfeitamente no gráfico do potencial de Lennard-Jones, a menos de translação e escala.
+
+  Para os próximos dias, estas serão as tarefas realizadas:
+	\begin{enumerate}
+		\item A finalização do programa de simulações de autômatos celulares.
+		\item Verificação da sopreposição da curva do potencial de Lennard-Jones no gráfico de afinidade em função de $q$.
+		\item A leitura do Capítulo 4 (``Nonlinear Oscillations and Chaos'') do livro ``Classical Dynamics of Particles and Systems'' dos autores Stephen T. Thornton e Jerry B. Marion.
+	\end{enumerate}
+
+\end{document}

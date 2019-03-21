@@ -1,0 +1,94 @@
+\documentclass[12pt,a4paper,final]{article}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+%% IDIOMA
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+
+%% TRANSFORMAÇÕES ESTILO CSS
+\usepackage{graphicx}
+
+%% ESTÉTICA
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{multirow}
+\usepackage[hyphens]{url}
+\usepackage{subfig}
+
+%% FONTE
+\usepackage[T1]{fontenc}
+%\usepackage[sc]{mathpazo} % Palatino with smallcaps
+\usepackage{mathptmx}
+\usepackage{eulervm} % Euler math
+
+%% TIPOGRAFIA
+\usepackage{parskip}
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+
+%% CODIGO
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\title{Relatório 3 de TCC2/IC}
+\author{Ly Sandro Amorim de Campos Salles\\Departamento de Física\\Universidade Federal do Paraná}
+\date{\today}
+
+\begin{document}
+	\maketitle
+
+	Desde o último encontro foram lidos os Capítulos 17 (``Advanced Uses of Pointers''), 18 (``Declarations'') e 19 (``Program design'') do do livro ``C Programming: A modern Approach'', do autor K. N. King. Agora é possível, com o conhecimento adquirido na leitura dos 19 capítulos desse livro, modelar em linguagem C qualquer simulação desejada.
+  
+  O artigo ``Adjustment and social choice'' dos pesquisadores Gérard Weisbuch e Dietrich Stauffer foi relido. Algumas observações foram feitas:
+  \begin{enumerate}
+    \item Talvez seja possível aplicar um modelo semelhante ao desse artigo na área de Física de Transição de Fases.
+    \item A configuração inicial de cada célula da matriz inclui um estado binário aleatório (-1 ou +1) e um limiar aleatório em $[-1,+1]$. Nas nossas simulações realizadas, o limiar inicial de todas as células era $0$.
+    \item No artigo é afirmado que, para taxas de atualização de limiar $q$ pequenas, é possível alcançar o consenso de estado na matriz. Isso há de ser verificado nas simulações realizadas.
+    \item No artigo foi verificado que, quando $q = 1.4$ e $L = 80$, as amplitudes das oscilações estado médio/limiar médio em função do ciclo são instáveis. Pelas nossas simulações realizadas já sabemos que isso acontece principalmente devido à dimensão linear (L) da matriz e pela topologia -- de bordas fechadas -- adotada no modelo desse automato celular. \label{instabilidadeL}
+    \item É explicado que para valores altos de $q$, as amplitudes das oscilações estado médio/limiar médio versus ciclo devem ser menores devido à uma maior assincronia de domínios. Matematicamente, isso deve implicar algo do tipo $q \propto 1/A$. Isso há de ser verificado.
+    \item Os autores perceberam que, apesar da variação da dimensão linear da matriz, as funções de autocorrelação permaneceram muito próximas umas das outras. Eles explicaram que isso ocorre porque os domínios de oscilação são independentes da dimensão linear da matriz. Um comportamento de independência quanto à essa característica da matriz foi observado nos nossos estudos das simulações realizadas, sendo que a váriável observada foi a inclinação da reta que melhor aproximava o atrator do gráfico número de aglomerados versus estado médio. 
+    \item É afirmado que o período das oscilações varia como $T \approx 20 / q$. A validade e o comportamento disso hão de ser verificados para valores maiores ($>2$) de $q$.
+    \item É comentado que os valores extremos para limiar são -4 e +4 (número de vizinhos de cada célula). Não é esclarecido se na simulação desses autores eles limitaram os limiares das células ao intervalo $[-4,+4]$. Nas nossas simulações feitas, o valor do limiar de cada célula foi deixado livre.
+    \item Os autores realizaram simulações em uma, duas, três e quatro dimensões mas não deram informações adicionais sobre isso. Eles também fizeram uma simulação com uma matriz de $20000 \times 20000$ elementos iniciada com todas as células no estado $+1$. Para essa simulação foi observado um comportamento semelhante ao de um amortecimento no gráfico de estado médio em função do ciclo. Pelas nossa simulações é possível conjecturar que essa aparência se deve principalmente pela diferença de magnitude entre o estado inicial e a amplitude característica das oscilações, pois o sistema sempre oscila dentro da ``região de menor energia''.
+    \item Eles chegaram a fazer simulações com influenciadores globais e, segundo eles, isso resultou numa convergência dos limiares dependendo do poder de influência do influenciador global.
+  \end{enumerate}
+  
+  Foi feita a releitura de todos os relatórios apresentados no segundo semestre de 2018. Estas foram as observações:
+  \begin{enumerate}
+    \item No Relatório 3, apresentado em 24 de agosto de 2018, é possível perceber que, mesmo sem estocasticidade no valor de atualização do limiar das células, a amplitude dos gráficos de estado médio e limiar médio em função do ciclo de simulação varia de maneira não-uniforme. Disso conjectura-se que os ruídos do sistema são criados pela assincronia dos núcleos de oscilação e não somente em como as células estão sendo atualizadas. Isso melhora a observação feita no Item \ref{instabilidadeL} da lista anterior e corrobora com as observações dos autores do artigo ``Adjustment and social choice''. Portanto, os efeitos macroscópicos das instabilidades dos núcleos de oscilações são amenizadas quando a dimensão linear da matriz é grande em comparação à dimensão linear desses núcleos (pelo artigo, essa dimensão é de aproximadamente 4 células).
+    \item O algoritmo apresentado no Relatório 5 (14 de setembro de 2018) para determinar o tamanho de aglomerados deve continuar sendo utilizado na nova versão do programa de simulações de automatos celulares. Esse algoritmo será beneficiado pelo conhecimento sobre implementação de estrutura de dados de filas adquirido na leitura do livro ``C Programming: a modern approach''.
+    \item No Relatório 5, observando a curva que remete ao potencial de Lennard-Jonnes, foi percebido que é possível verificar facilmente se as curvas ``encaixam'' uma na outra através de software de manipulação de imagens. Foi verificado que, pelo menos para a curva do Relatório 5, as duas curvas se sobrepõem através de redimensionamento e translação. Devido à baixa qualidade do gráfico rasterizado, a imagem não foi incluída neste relatório. Essa exibição será possível através da vetorização da curva do potencial de Lennard-Jones.
+    \item A limitação do tamanho das matrizes das simulações realizadas nesse semestre era de aproximadamente $2000\times 2000$. Com os conhecimentos obtidos recentemente sobre programação, esse limite deve aumentar para aproximadamente $30000\times 30000$ em um computador pessoal.
+  \end{enumerate}
+
+  Atualmente, o Capítulo 4 (``Nonlinear Oscillations and Chaos'') do livro ``Classical Dynamics of Particles and Systems'' dos autores Stephen T. Thornton e Jerry B. Marion está sendo lido. 
+  
+  
+  Para os próximos dias, estas serão as tarefas realizadas:
+	\begin{enumerate}
+		\item A releitura da tese ``Dinâmica de padrões em autômatos celulares com inércia'' do pesquisador Klaus Kramer;
+		\item O desenvolvimento do relatório parcial de Iniciação Científica;
+		\item A finalização do programa de simulações de autômatos celulares.
+	\end{enumerate}
+
+\end{document}

@@ -1,0 +1,129 @@
+\documentclass[12pt,a4paper,final]{article}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+%% IDIOMA
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+
+%% TRANSFORMAÇÕES ESTILO CSS
+\usepackage{graphicx}
+
+%% ESTÉTICA
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{multirow}
+\usepackage[hyphens]{url}
+\usepackage{subfig}
+
+%% FONTE
+\usepackage[T1]{fontenc}
+%\usepackage[sc]{mathpazo} % Palatino with smallcaps
+\usepackage{mathptmx}
+\usepackage{eulervm} % Euler math
+
+%% TIPOGRAFIA
+\usepackage{parskip}
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+
+%% CODIGO
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\title{Relatório 1 de TCC2/IC}
+\author{Ly Sandro Amorim de Campos Salles\\Departamento de Física\\Universidade Federal do Paraná}
+\date{\today}
+
+\begin{document}
+	\maketitle
+
+	Desde o último encontro, com o objetivo de aumentar a modularidade dos programas escritos (e consequentemente aumentar a facilidade de manutenção e interpretação do código), o Capítulo 15 (``Writing Large Programs'') do Livro ``C Programming: A Modern Approach'' foi lido.
+
+	Desde o último encontro foi iniciado o desenvolvimento de uma nova versão do programa de simulações de automatos celulares (antigo INCA). Os desenvolvimentos deste novo programa, chamado de CAexplorer (Cellular Automata Explorer), estão listados abaixo, em ordem cronológica invertida (mais novos primeiro):
+
+	\begin{lstlisting}
+Thu Feb 28 16:43:02 2019 -0300 by Ly Sandro:
+    Created functions for creating, deleting, running and starting an ICA
+
+Thu Feb 28 14:36:12 2019 -0300 by Ly Sandro:
+    ICA designed
+
+Thu Feb 28 13:43:43 2019 -0300 by Ly Sandro:
+    Improved makefile and organization of files
+
+Mon Feb 25 19:40:21 2019 -0300 by Ly Sandro:
+    makefile fixes
+
+Mon Feb 25 19:27:34 2019 -0300 by Ly Sandro:
+    makefile created
+
+Mon Feb 25 19:26:54 2019 -0300 by Ly Sandro:
+    makefile created
+
+Mon Feb 25 18:30:36 2019 -0300 by Ly Sandro:
+    printTitle now lists the references, i.e., the titles and the authors of the respective CAs
+
+Mon Feb 25 13:40:26 2019 -0300 by Ly Sandro:
+    Header created for Inhomogenous Cellular Automata (ICA); main function improved for readability.
+
+Mon Feb 25 13:16:21 2019 -0300 by Ly Sandro:
+    main function's contents prototyped
+
+Sat Feb 23 23:36:29 2019 -0300 by Ly Sandro:
+    README created
+
+Sat Feb 23 22:49:15 2019 -0300 by Ly Sandro:
+    Readme added
+
+Sat Feb 23 14:42:48 2019 -0300 by Ly Sandro:
+    gitignore created
+
+Sat Feb 23 14:35:21 2019 -0300 by Ly Sandro:
+    CAexplorer updated with printTitle.h header included
+
+Sat Feb 23 14:30:48 2019 -0300 by Ly Sandro:
+    printTitle.h finished
+
+Sat Feb 23 14:29:41 2019 -0300 by Ly Sandro:
+    printTitle declared and defined
+
+Sat Feb 23 14:15:56 2019 -0300 by Ly Sandro:
+    initial commit
+
+	\end{lstlisting}
+
+	Com o objetivo de manter o código bem organizado, o Capítulo 16 (``Structures, Unions and Enumerations'') do livro ``C Programming: A Modern Approach'' está sendo lido.
+
+	Com o objetivo de realizar várias simulações diferentes em uma mesma execução do programa (aumentando a produção de resultados por unidade de tempo), o Capítulo 17 (``Advanced Uses of Pointers'') do livro ``C Programming: A Modern Approach'' será lido.
+
+	É esperado que o desenvolvimento da nova versão do programa de simulações de Automatos Celulares seja completado até o próximo encontro.
+
+	Entre as futuras características/habilidades do novo programa, estão:
+	\begin{enumerate}
+		\item Suporte para Automatos Celulares em geral: Será fácil implementar novos automatos no mesmo programa;
+		\item Análise de aglomerados;
+		\item Geração de arquivos de gráficos de dados;
+		\item Geração de arquivos de imagem dos automatos celulares
+	\end{enumerate}
+
+\end{document}
