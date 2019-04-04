@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="207.83548mm"
+   height="139.03082mm"
+   viewBox="0 0 736.42492 492.62889"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="plan.svg"
+   inkscape:export-filename="/home/ly/Documents/TCC/Relatórios/Relatorio5/estruturaCaexplorer.png"
+   inkscape:export-xdpi="120"
+   inkscape:export-ydpi="120">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="278.48082"
+     inkscape:cy="394.63313"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="709"
+     inkscape:window-x="1366"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-20.878717,-344.89345)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4159"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(0,308.26772)"><flowRegion
+         id="flowRegion4161"><rect
+           id="rect4163"
+           width="224.25386"
+           height="101.01525"
+           x="53.538086"
+           y="167.29738" /></flowRegion><flowPara
+         id="flowPara4165"></flowPara></flowRoot>    <g
+       id="g4752">
+      <g
+         transform="translate(0,28.555972)"
+         id="g4692">
+        <g
+           id="g4150"
+           transform="matrix(1.1760775,0,0,1.1251951,-23.896235,-46.003945)">
+          <rect
+             y="368.12781"
+             x="38.622746"
+             height="345.61166"
+             width="194.18307"
+             id="rect4136"
+             style="opacity:1;fill:#73d216;stroke:#000000;stroke-width:1.10263133;stroke-miterlimit:4;stroke-dasharray:none" />
+          <flowRoot
+             transform="translate(-4.8374748,300.01518)"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="flowRoot4138"
+             xml:space="preserve"><flowRegion
+               id="flowRegion4140"><rect
+                 style="text-align:center;text-anchor:middle;stroke:#000000"
+                 y="76.951622"
+                 x="55.714287"
+                 height="50"
+                 width="168.57143"
+                 id="rect4142" /></flowRegion><flowPara
+               id="flowPara4146"
+               style="font-size:20px;text-align:center;text-anchor:middle;stroke:#000000">CA explorer</flowPara></flowRoot>        </g>
+        <g
+           transform="translate(1.5152238,276.78179)"
+           id="g4175-6-0-2-9">
+          <rect
+             y="442.1933"
+             x="49.460686"
+             height="28.357845"
+             width="174.82997"
+             id="rect4157-2-9-6-2"
+             style="opacity:1;fill:#729fcf;stroke:#000000;stroke-width:0.92642653;stroke-miterlimit:4;stroke-dasharray:none" />
+          <flowRoot
+             transform="translate(3.715271,312.48209)"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="flowRoot4167-9-3-1-28"
+             xml:space="preserve"><flowRegion
+               id="flowRegion4169-1-6-8-9"><rect
+                 y="131.94205"
+                 x="35.355339"
+                 height="38.385803"
+                 width="195.96957"
+                 id="rect4171-2-0-7-73" /></flowRegion><flowPara
+               style="font-size:17.5px"
+               id="flowPara4236-6-9-6">Iniciar Simulação</flowPara></flowRoot>        </g>
+        <rect
+           style="opacity:1;fill:#edd400;stroke:#000000;stroke-width:0.93633437;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect4384"
+           width="193.00279"
+           height="227.53"
+           x="41.35574"
+           y="473.52524" />
+        <g
+           id="g4175"
+           transform="translate(-1.1613917,-21.428572)">
+          <rect
+             y="442.1662"
+             x="59.535118"
+             height="28.412031"
+             width="154.68111"
+             id="rect4157"
+             style="opacity:1;fill:#729fcf;stroke:#000000;stroke-width:0.87224042;stroke-miterlimit:4;stroke-dasharray:none" />
+          <flowRoot
+             transform="translate(0.39447021,310.4805)"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="flowRoot4167"
+             xml:space="preserve"><flowRegion
+               id="flowRegion4169"><rect
+                 y="134.9725"
+                 x="58.588848"
+                 height="36.36549"
+                 width="155.56349"
+                 id="rect4171" /></flowRegion><flowPara
+               id="flowPara4173"
+               style="font-size:17.5px">Criar Matriz</flowPara></flowRoot>        </g>
+        <g
+           transform="translate(0.98146545,57.844862)"
+           id="g4175-3">
+          <rect
+             y="442.1662"
+             x="59.535118"
+             height="28.412031"
+             width="154.68111"
+             id="rect4157-6"
+             style="opacity:1;fill:#729fcf;stroke:#000000;stroke-width:0.87224042;stroke-miterlimit:4;stroke-dasharray:none" />
+          <flowRoot
+             transform="translate(0.81744385,310.4805)"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="flowRoot4167-7"
+             xml:space="preserve"><flowRegion
+               id="flowRegion4169-5"><rect
+                 y="134.9725"
+                 x="58.588848"
+                 height="36.36549"
+                 width="155.56349"
+                 id="rect4171-3" /></flowRegion><flowPara
+               id="flowPara4216"
+               style="font-size:17.5px">Analisar Matriz</flowPara></flowRoot>        </g>
+        <g
+           transform="translate(0.98146545,101.82419)"
+           id="g4175-6">
+          <rect
+             y="439.60309"
+             x="59.535118"
+             height="28.412031"
+             width="154.68111"
+             id="rect4157-2"
+             style="opacity:1;fill:#729fcf;stroke:#000000;stroke-width:0.87224042;stroke-miterlimit:4;stroke-dasharray:none" />
+          <flowRoot
+             transform="translate(0.48846436,308.26773)"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="flowRoot4167-9"
+             xml:space="preserve"><flowRegion
+               id="flowRegion4169-1"><rect
+                 y="134.9725"
+                 x="58.588848"
+                 height="36.36549"
+                 width="155.56349"
+                 id="rect4171-2" /></flowRegion><flowPara
+               style="font-size:17.5px"
+               id="flowPara4236">Criar Gráfico</flowPara></flowRoot>        </g>
+        <g
+           transform="translate(0.98146545,140.67734)"
+           id="g4175-6-0">
+          <rect
+             y="442.1933"
+             x="49.460686"
+             height="28.357845"
+             width="174.82997"
+             id="rect4157-2-9"
+             style="opacity:1;fill:#729fcf;stroke:#000000;stroke-width:0.92642653;stroke-miterlimit:4;stroke-dasharray:none" />
+          <flowRoot
+             transform="translate(3.715271,312.48209)"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="flowRoot4167-9-3"
+             xml:space="preserve"><flowRegion
+               id="flowRegion4169-1-6"><rect
+                 y="131.94205"
+                 x="35.355339"
+                 height="38.385803"
+                 width="195.96957"
+                 id="rect4171-2-0" /></flowRegion><flowPara
+               style="font-size:17.5px"
+               id="flowPara4236-6">Salvar Matriz (IMG)</flowPara></flowRoot>        </g>
+        <g
+           transform="translate(0.98146545,182.09358)"
+           id="g4175-6-0-2">
+          <rect
+             y="442.1933"
+             x="49.460686"
+             height="28.357845"
+             width="174.82997"
+             id="rect4157-2-9-6"
+             style="opacity:1;fill:#729fcf;stroke:#000000;stroke-width:0.92642653;stroke-miterlimit:4;stroke-dasharray:none" />
+          <flowRoot
+             transform="translate(3.715271,312.48209)"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="flowRoot4167-9-3-1"
+             xml:space="preserve"><flowRegion
+               id="flowRegion4169-1-6-8"><rect
+                 y="131.94205"
+                 x="35.355339"
+                 height="38.385803"
+                 width="195.96957"
+                 id="rect4171-2-0-7" /></flowRegion><flowPara
+               style="font-size:17.5px"
+               id="flowPara4236-6-9">Salvar Matriz (BIN)</flowPara></flowRoot>        </g>
+        <g
+           transform="translate(0.98146545,223.50983)"
+           id="g4175-6-0-2-2">
+          <rect
+             y="442.1933"
+             x="49.460686"
+             height="28.357845"
+             width="174.82997"
+             id="rect4157-2-9-6-0"
+             style="opacity:1;fill:#729fcf;stroke:#000000;stroke-width:0.92642653;stroke-miterlimit:4;stroke-dasharray:none" />
+          <flowRoot
+             transform="translate(3.715271,312.48209)"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="flowRoot4167-9-3-1-2"
+             xml:space="preserve"><flowRegion
+               id="flowRegion4169-1-6-8-3"><rect
+                 y="131.94205"
+                 x="35.355339"
+                 height="38.385803"
+                 width="195.96957"
+                 id="rect4171-2-0-7-7" /></flowRegion><flowPara
+               style="font-size:17.5px"
+               id="flowPara4236-6-9-5">Salvar Dados</flowPara></flowRoot>        </g>
+        <g
+           id="g4438">
+          <text
+             sodipodi:linespacing="125%"
+             id="text4422"
+             y="479.50507"
+             x="135.7094"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:8.99388599;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               y="479.50507"
+               x="135.7094"
+               id="tspan4424"
+               sodipodi:role="line">OPÇÕES</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8.99388599;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="135.7094"
+             y="479.50507"
+             id="text4426"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan4428"
+               x="135.7094"
+               y="479.50507">OPÇÕES</tspan></text>
+        </g>
+      </g>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4463"
+         d="M 212.13203,466.47373 340.42141,362.42801"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4516"
+         d="M 213.14218,544.25548 335.37065,437.1793"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4546"
+         d="M 215.16249,582.64127 336.3808,522.03212"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4577"
+         d="M 225.26402,626.07782 336.38079,610.92554"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4601"
+         d="M 337.39095,676.58546 224.25386,665.47377"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <g
+         id="g4650">
+        <g
+           id="g4510"
+           transform="translate(0,1.7942395e-5)">
+          <rect
+             y="345.39343"
+             x="336.5188"
+             height="50.231636"
+             width="250.24182"
+             id="rect4465"
+             style="opacity:1;fill:#fcaf3e;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="100%"
+             id="text4467"
+             y="366.97369"
+             x="341.11215"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:100%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="366.97369"
+               x="341.11215"
+               id="tspan4469"
+               sodipodi:role="line">Tipo: Stauffer, Klaus, etc.</tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               id="tspan4471"
+               y="384.47369"
+               x="341.11215"
+               sodipodi:role="line">Tamanho.</tspan></text>
+        </g>
+        <g
+           id="g4503"
+           transform="translate(24.917419,-6.4404423)">
+          <rect
+             y="412.39987"
+             x="311.60138"
+             height="69.761909"
+             width="420.28482"
+             id="rect4465-1"
+             style="opacity:1;fill:#fcaf3e;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="100%"
+             id="text4467-2"
+             y="433.64374"
+             x="315.85834"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:100%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               id="tspan4471-3"
+               y="433.64374"
+               x="315.85834"
+               sodipodi:role="line">Características atuais;</tspan><tspan
+               id="tspan4499"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="451.14374"
+               x="315.85834"
+               sodipodi:role="line">Imprimir características a cada N passos;</tspan><tspan
+               id="tspan4501"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="468.64374"
+               x="315.85834"
+               sodipodi:role="line">Escolher características que serão impressas.</tspan></text>
+        </g>
+        <g
+           id="g4538"
+           transform="translate(65.429718,-44.425847)">
+          <rect
+             y="530.48151"
+             x="271.08908"
+             height="83.106293"
+             width="280.08603"
+             id="rect4465-19"
+             style="opacity:1;fill:#fcaf3e;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="100%"
+             id="text4467-4"
+             y="551.8316"
+             x="275.45224"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:100%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               id="tspan4471-8"
+               y="551.8316"
+               x="275.45224"
+               sodipodi:role="line">Parâmetros de plotagem;</tspan><tspan
+               id="tspan4532"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="569.3316"
+               x="275.45224"
+               sodipodi:role="line">Intervalo de plotagem;</tspan><tspan
+               id="tspan4534"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="586.8316"
+               x="275.45224"
+               sodipodi:role="line">Título do gráfico;</tspan><tspan
+               id="tspan4536"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="604.3316"
+               x="275.45224"
+               sodipodi:role="line">Criar gráfico a cada N passos.</tspan></text>
+        </g>
+        <g
+           id="g4570"
+           transform="translate(18.036072,-19.592057)">
+          <rect
+             y="599.08838"
+             x="318.48273"
+             height="63.070293"
+             width="301.46628"
+             id="rect4465-4"
+             style="opacity:1;fill:#fcaf3e;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="100%"
+             id="text4467-5"
+             y="620.52197"
+             x="322.92941"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:100%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               id="tspan4562"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="620.52197"
+               x="322.92941"
+               sodipodi:role="line">Parâmetro (estado, limiar, etc);</tspan><tspan
+               id="tspan4566"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="638.02197"
+               x="322.92941"
+               sodipodi:role="line">Título da imagem;</tspan><tspan
+               id="tspan4568"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="655.52197"
+               x="322.92941"
+               sodipodi:role="line">Criar imagem a cada N passos.</tspan></text>
+        </g>
+        <g
+           id="g4595"
+           transform="translate(6.0239868,-59.214734)">
+          <rect
+             y="712.11572"
+             x="330.49481"
+             height="50.157753"
+             width="280.4725"
+             id="rect4465-10"
+             style="opacity:1;fill:#fcaf3e;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="100%"
+             id="text4467-6"
+             y="733.65906"
+             x="335.05124"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:100%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               id="tspan4471-2"
+               y="733.65906"
+               x="335.05124"
+               sodipodi:role="line">Título da matriz;</tspan><tspan
+               id="tspan4593"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="751.15906"
+               x="335.05124"
+               sodipodi:role="line">Salvar matriz a cada N passos.</tspan></text>
+        </g>
+        <g
+           id="g4621"
+           transform="translate(28.173431,-52.334642)">
+          <rect
+             y="765.72772"
+             x="308.34537"
+             height="63.141918"
+             width="274.26379"
+             id="rect4465-0"
+             style="opacity:1;fill:#fcaf3e;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="100%"
+             id="text4467-61"
+             y="787.19714"
+             x="312.82788"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:100%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               id="tspan4471-5"
+               y="787.19714"
+               x="312.82788"
+               sodipodi:role="line">Salvar dados a cada N passos;</tspan><tspan
+               id="tspan4617"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="804.69714"
+               x="312.82788"
+               sodipodi:role="line">Nome do arquivo de dados;</tspan><tspan
+               id="tspan4619"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="822.19714"
+               x="312.82788"
+               sodipodi:role="line">Dados que serão salvos.</tspan></text>
+        </g>
+        <g
+           id="g4644"
+           transform="translate(-0.03933716,2.6836055e-6)">
+          <rect
+             y="786.86938"
+             x="336.55814"
+             height="50.152977"
+             width="282.48804"
+             id="rect4465-47"
+             style="opacity:1;fill:#fcaf3e;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="100%"
+             id="text4467-65"
+             y="808.41034"
+             x="341.11215"
+             style="font-style:normal;font-weight:normal;font-size:20px;line-height:100%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               id="tspan4471-9"
+               y="808.41034"
+               x="341.11215"
+               sodipodi:role="line">Lista de parâmetros iniciais;</tspan><tspan
+               id="tspan4642"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:-1.5px"
+               y="825.91034"
+               x="341.11215"
+               sodipodi:role="line">Número total de ciclos/passos;</tspan></text>
+        </g>
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path4748"
+         d="M 223.24371,712.95095 336.3808,746.28598"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4750"
+         d="m 225.26402,762.44842 110.10663,48.48732"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
