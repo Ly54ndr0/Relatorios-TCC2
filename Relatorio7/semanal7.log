@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.27)  15 APR 2019 14:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.27)  18 APR 2019 14:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -780,22 +780,42 @@ Overfull \hbox (6.82086pt too wide) in paragraph at lines 62--63
 \T1/ptm/m/n/12 (-10) de mo-di-fi-ca-珲es, no en-de-re鏾 $\T1/cmtt/m/n/12 https : / / github . com / Ly54ndr0 / CellularAutomataExplorer$\T1/ptm/m/n/12 (-10) . 
  []
 
+<L50.png, id=1, 610.28pt x 343.2825pt>
+File: L50.png Graphic file (type png)
+ <use L50.png>
+Package pdftex.def Info: L50.png used on input line 99.
+(pdftex.def)             Requested size: 318.66948pt x 179.25696pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<L100.png, id=2, 610.28pt x 343.2825pt>
+File: L100.png Graphic file (type png)
+ <use L100.png>
+Package pdftex.def Info: L100.png used on input line 106.
+(pdftex.def)             Requested size: 318.66948pt x 179.25696pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 112.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/ly/Documents/TCC/Relat贸rios/Relatorio7/semanal7.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 </home/ly/Documents/TCC/Relat贸rios/Relatorio7/L50.png> </home/ly/Documents/TCC/Relat贸rios/Relatorio7/L100.png>] [3] (/home/ly/Documents/TCC/Relat贸rios/Relatorio7/semanal7.aux) ) 
 Here is how much of TeX's memory you used:
- 8442 strings out of 493029
- 126860 string characters out of 6136233
- 227013 words of memory out of 5000000
- 11742 multiletter control sequences out of 15000+600000
- 41772 words of font info for 112 fonts, out of 8000000 for 9000
+ 8472 strings out of 493029
+ 127192 string characters out of 6136233
+ 231029 words of memory out of 5000000
+ 11758 multiletter control sequences out of 15000+600000
+ 45155 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,6n,42p,605b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/ly/Documents/TCC/Relat贸rios/Relatorio7/semanal7.pdf (1 page, 74891 bytes).
+ 44i,6n,42p,1424b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/ly/Documents/TCC/Relat贸rios/Relatorio7/semanal7.pdf (3 pages, 110351 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 27649 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 28171 words of extra memory for PDF output out of 29859 (max. 10000000)
 
