@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1556227107 "/home/ly/Documents/TCC/Relatórios/Relatorio8/semanal8.tex" "/home/ly/Documents/TCC/Relatórios/Relatorio8/semanal8.pdf" "semanal8" 1556227107
+["pdflatex"] 1556227356 "/home/ly/Documents/TCC/Relatórios/Relatorio8/semanal8.tex" "/home/ly/Documents/TCC/Relatórios/Relatorio8/semanal8.pdf" "semanal8" 1556227357
   "/etc/texmf/web2c/texmf.cnf" 1545943771 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/ly/Documents/TCC/Relatórios/Relatorio8/semanal8.aux" 1556227107 1510 f3d1760851d87dea7050ef417639e29a ""
-  "/home/ly/Documents/TCC/Relatórios/Relatorio8/semanal8.tex" 1556227106 5925 d3dd15ccc795f1c8ed65d892071d4414 ""
+  "/home/ly/Documents/TCC/Relatórios/Relatorio8/semanal8.aux" 1556227357 1510 f3d1760851d87dea7050ef417639e29a ""
+  "/home/ly/Documents/TCC/Relatórios/Relatorio8/semanal8.tex" 1556227356 5933 7f38903334c616ed03fa9a9fe1e4b9a7 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -113,11 +113,11 @@
   "L250-derivada.png" 1556226580 11485 0fbae4f0174cd173fbb10877c90a41a2 ""
   "L250.png" 1556226580 11079 0352f667e0a1e9e6801e938429ca2f37 ""
   "L50-derivada.png" 1556226580 11529 2ddda36c06264014afe61f6ee9d93907 ""
-  "semanal8.aux" 1556227107 1510 f3d1760851d87dea7050ef417639e29a ""
-  "semanal8.tex" 1556227106 5925 d3dd15ccc795f1c8ed65d892071d4414 ""
+  "semanal8.aux" 1556227357 1510 f3d1760851d87dea7050ef417639e29a ""
+  "semanal8.tex" 1556227356 5933 7f38903334c616ed03fa9a9fe1e4b9a7 ""
   (generated)
   "semanal8.pdf"
-  "/home/ly/Documents/TCC/Relatórios/Relatorio8/semanal8.pdf"
+  "semanal8.aux"
   "semanal8.log"
   "/home/ly/Documents/TCC/Relatórios/Relatorio8/semanal8.log"
-  "semanal8.aux"
+  "/home/ly/Documents/TCC/Relatórios/Relatorio8/semanal8.pdf"
