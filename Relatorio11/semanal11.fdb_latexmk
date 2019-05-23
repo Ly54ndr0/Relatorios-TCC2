@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1558592416 "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.tex" "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.pdf" "semanal11" 1558592417
+["pdflatex"] 1558638901 "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.tex" "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.pdf" "semanal11" 1558638901
   "/etc/texmf/web2c/texmf.cnf" 1545943771 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.aux" 1558592417 679 dbee5dd99d99d2620ba2a8630dea8d93 ""
-  "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.tex" 1558592415 5208 7da5a67c9805afff9f5ac311fc08be50 ""
+  "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.aux" 1558638901 1275 58c82539cba52ecfe9f00a7e20a5ce0b ""
+  "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.tex" 1558638900 6126 3db62e16f6fe12e625b056353e1ea1f0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -122,11 +122,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1545943789 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1545943818 3853586 fae4242f2bf50b623cc2caa1c66ebae6 ""
-  "semanal11.aux" 1558592417 679 dbee5dd99d99d2620ba2a8630dea8d93 ""
-  "semanal11.tex" 1558592415 5208 7da5a67c9805afff9f5ac311fc08be50 ""
+  "caosq01noise10.png" 1558636975 40224 164a2d813180c9bfc47b40e44727ef5e ""
+  "semanal11.aux" 1558638901 1275 58c82539cba52ecfe9f00a7e20a5ce0b ""
+  "semanal11.tex" 1558638900 6126 3db62e16f6fe12e625b056353e1ea1f0 ""
   (generated)
-  "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.pdf"
-  "semanal11.log"
-  "semanal11.aux"
-  "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.log"
   "semanal11.pdf"
+  "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.log"
+  "semanal11.aux"
+  "semanal11.log"
+  "/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.pdf"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.27)  23 MAY 2019 03:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.27)  23 MAY 2019 16:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,22 +775,27 @@ Overfull \hbox (3.59105pt too wide) in paragraph at lines 68--69
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[1
+<caosq01noise10.png, id=1, 610.28pt x 343.2825pt>
+File: caosq01noise10.png Graphic file (type png)
+ <use caosq01noise10.png>
+Package pdftex.def Info: caosq01noise10.png used on input line 106.
+(pdftex.def)             Requested size: 318.66948pt x 179.25696pt.
+ [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3 </home/ly/Documents/TCC/Relatórios/Relatorio11/caosq01noise10.png>] (/home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.aux) ) 
 Here is how much of TeX's memory you used:
- 8428 strings out of 493029
- 126295 string characters out of 6136233
- 232023 words of memory out of 5000000
- 11729 multiletter control sequences out of 15000+600000
- 45646 words of font info for 117 fonts, out of 8000000 for 9000
+ 8445 strings out of 493029
+ 126518 string characters out of 6136233
+ 233031 words of memory out of 5000000
+ 11735 multiletter control sequences out of 15000+600000
+ 46036 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,10n,42p,467b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,10n,42p,609b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.pdf (2 pages, 56637 bytes).
+Output written on /home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.pdf (3 pages, 92200 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 27137 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 27142 words of extra memory for PDF output out of 29859 (max. 10000000)
 

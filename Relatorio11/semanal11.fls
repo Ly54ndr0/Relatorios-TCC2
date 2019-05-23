@@ -201,7 +201,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /home/ly/Documents/TCC/Relatórios/Relatorio11/caosq01noise10.png
+INPUT /home/ly/Documents/TCC/Relatórios/Relatorio11/caosq01noise10.png
 OUTPUT /home/ly/Documents/TCC/Relatórios/Relatorio11/semanal11.pdf
+INPUT /home/ly/Documents/TCC/Relatórios/Relatorio11/caosq01noise10.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map

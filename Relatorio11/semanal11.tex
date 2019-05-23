@@ -63,7 +63,7 @@
   \begin{enumerate}
     \item Geração da matriz inicial com a \textit{seed} $156501936$ (gerada em uma calculadora Casio);
     \item Inversão de estado e limiar de $n$ células em posições aleatórias geradas com \textit{seed} baseada no horário mundial;
-    \item Execução da simulação para 10000 cyclos utilizando $L=100$, limiar igual a $q$ e seed igual a $2376222$ (gerada em uma Casio);
+    \item Execução da simulação para 10000 ciclos utilizando $L=100$, limiar igual a $q$ e \textit{seed} igual a $2376222$ (gerada em uma Casio);
   \end{enumerate}
   Esse procedimento foi feito para $n\in\{0, 1, 10, 100, 1000, 10000\}$ e $q\in\{0.1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$.
 
@@ -73,17 +73,17 @@
   \end{align}
   Porém, considerando que $\mathrm{ln}(0)=-\infty$ e que computadores não lidam muito bem com infinito, foram feitas as seguintes observações com o intuito de desenvolver um coeficiente equivalente:
   \begin{enumerate}[a)]
-    \item $\lambda < 0 \Leftrightarrow \mathrm{e}^\lambda < 1 \Leftrightarrow \Delta^\frac{1}{n} < 1 \Leftrightarrow \Delta^\frac{1}{10} < 1 \Rightarrow$ sistema estável
-    \item $\lambda = 0 \Leftrightarrow \mathrm{e}^\lambda = 1 \Leftrightarrow \Delta^\frac{1}{n} = 1 \Leftrightarrow \Delta^\frac{1}{10} = 1$
-    \item $\lambda > 0 \Leftrightarrow \mathrm{e}^\lambda > 1 \Leftrightarrow \Delta^\frac{1}{n} > 1 \Leftrightarrow \Delta^\frac{1}{10} > 1 \Rightarrow$ sistema caótico
+    \item $\forall \Delta > 0$ tem-se que $\lambda < 0 \Leftrightarrow \mathrm{e}^\lambda < 1 \Leftrightarrow \Delta^\frac{1}{n} < 1 \Leftrightarrow \Delta^\frac{1}{10} < 1 \Rightarrow$ sistema estável 
+    \item $\forall \Delta > 0$ tem-se que $\lambda = 0 \Leftrightarrow \mathrm{e}^\lambda = 1 \Leftrightarrow \Delta^\frac{1}{n} = 1 \Leftrightarrow \Delta^\frac{1}{10} = 1$ 
+    \item $\forall \Delta > 0$ tem-se que $\lambda > 0 \Leftrightarrow \mathrm{e}^\lambda > 1 \Leftrightarrow \Delta^\frac{1}{n} > 1 \Leftrightarrow \Delta^\frac{1}{10} > 1 \Rightarrow$ sistema caótico 
   \end{enumerate}
- (O número 10 foi tomado arbitrariamente com a finalidade de diminuir números grandes). Portanto, é suficiente mostrar que $\Delta^\frac{1}{10} > 1$.
+ (O número 10 foi tomado arbitrariamente com a finalidade de diminuir números grandes). Portanto, é suficiente mostrar que $\Delta^\frac{1}{10} > 1$. A tabela \ref{tab:mediaDelta} lista os valores médios de $\Delta^\frac{1}{10}$ para matrizes iniciais que tiveram até $10^x\%$ de suas células modificadas, com $x\in\{-2, -1, 0, 1, 2\}$.
 
  \begin{table}[h]
   \centering
   \begin{tabular}{c ccccc}
     \toprule
-    q & \multicolumn{5}{c}{$\varepsilon$}\\
+    q & \multicolumn{5}{c}{Valor médio de $\Delta^\frac{1}{10}$ para $\varepsilon$ máximo de}\\
      & 0.01\% & 0.1\% & 1\% & 10\% & 100\%\\\midrule
     0.1 & 1.8794	& 1.8456	& 1.7018	& 1.4393	& 1.8960\\
     1.0 & 1.8958	& 1.7182	& 1.5883	& 1.4302	& 1.2938\\
@@ -97,9 +97,16 @@
     9.0 & 1.4383	& 1.4295	& 1.2436	& 1.0116	& 1.0921\\
     10.0& 1.3170	& 1.7878	& 1.2356	& 1.2074	& 1.2092\\\bottomrule
   \end{tabular}
-  \caption{Valores médios para $\Delta^\frac{1}{10}$ obtidos na simulação com Vizinhança de Moore. Apesar de todos serem positivos, indicando a presença de cáos, alguns são próximos de $1$, indicando sistemas menos caóticos.}
+  \caption{Valores médios para $\Delta^\frac{1}{10}$ obtidos na simulação com Vizinhança de Moore. Apesar de todos serem positivos, indicando a presença de cáos, alguns são próximos de $1$, indicando sistemas menos caóticos no intervalo de ciclos observado.}
   \label{tab:mediaDelta}
- \end{table}
+  \end{table}
+
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{caosq01noise10.png}
+    \caption{$\Delta^\frac{1}{10}$ ao longo de 10000 ciclos de uma simulação com $L=100$, $q=0.1$, vizinhança de Moore, e $\varepsilon$ de até $0.1\%$ de diferença com a matriz inicial. O sistema tende a se comportar de forma parecida com o original durante os primeiros 1500 ciclos, tendo um ponto crítico a partir do ciclo 1500, a partir do qual o sistema fica totalmente caótico.}
+    \label{fig:caosq01noise10}
+  \end{figure}
 
   Para os próximos dias, estas serão as tarefas realizadas:
   \begin{enumerate}
